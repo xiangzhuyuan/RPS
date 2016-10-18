@@ -12,6 +12,8 @@
 		AF37B8EF1DB4FA0900AA2528 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF37B8ED1DB4FA0900AA2528 /* Main.storyboard */; };
 		AF37B8F11DB4FA0900AA2528 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF37B8F01DB4FA0900AA2528 /* Assets.xcassets */; };
 		AF37B8F41DB4FA0900AA2528 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF37B8F21DB4FA0900AA2528 /* LaunchScreen.storyboard */; };
+		AF37B8FE1DB4FE6300AA2528 /* Sign.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF37B8FD1DB4FE6300AA2528 /* Sign.swift */; };
+		AF37B9001DB4FF4A00AA2528 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF37B8FF1DB4FF4A00AA2528 /* GameState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		AF37B8F01DB4FA0900AA2528 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF37B8F31DB4FA0900AA2528 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF37B8F51DB4FA0900AA2528 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF37B8FD1DB4FE6300AA2528 /* Sign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sign.swift; sourceTree = "<group>"; };
+		AF37B8FF1DB4FF4A00AA2528 /* GameState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +58,14 @@
 		AF37B8E81DB4FA0900AA2528 /* RPS */ = {
 			isa = PBXGroup;
 			children = (
+				AF37B8FD1DB4FE6300AA2528 /* Sign.swift */,
 				AF37B8E91DB4FA0900AA2528 /* AppDelegate.swift */,
 				AF37B8EB1DB4FA0900AA2528 /* ViewController.swift */,
 				AF37B8ED1DB4FA0900AA2528 /* Main.storyboard */,
 				AF37B8F01DB4FA0900AA2528 /* Assets.xcassets */,
 				AF37B8F21DB4FA0900AA2528 /* LaunchScreen.storyboard */,
 				AF37B8F51DB4FA0900AA2528 /* Info.plist */,
+				AF37B8FF1DB4FF4A00AA2528 /* GameState.swift */,
 			);
 			path = RPS;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF37B8EC1DB4FA0900AA2528 /* ViewController.swift in Sources */,
+				AF37B9001DB4FF4A00AA2528 /* GameState.swift in Sources */,
 				AF37B8EA1DB4FA0900AA2528 /* AppDelegate.swift in Sources */,
+				AF37B8FE1DB4FE6300AA2528 /* Sign.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
